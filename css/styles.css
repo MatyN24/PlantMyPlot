@@ -1,0 +1,200 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  }
+
+
+p {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  color: #4B7A75;
+  position: relative;
+}
+
+/* headings */
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  }
+
+.section-heading {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* sections */
+.colored-section {
+  background-color: #d6efc7;
+  color: #184d47;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Button Class */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/********title******/
+
+#title .container-fluid {
+  padding-top: 3% 15% 7%;
+text-align: left
+}
+
+.img-mobile {
+width: 60%;
+  transform: rotate(25deg);
+  margin: 0 auto 0;
+  position: absolute;
+  right: 30%;
+}
+
+
+/* .row {
+  margin: 80px auto 50px auto;
+} */
+
+
+
+/********* Feature *********/
+#features {
+  position: relative;
+  z-index: 1;
+  }
+
+.icon-feature {
+  color: #eebb4d;
+  margin-top: 50px;
+  margin-bottom: 1rem;
+}
+
+.icon-feature:hover {
+  color: #C79C40;
+}
+
+.feature-title {
+font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+/* Testimonials */
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* press section */
+
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+
+/* pricing section */
+#pricing {
+padding: 100px;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+.price-btn {
+  align: bottom;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CTA Section */
+
+
+
+/* footer section */
+#footer {
+  margin-top: 50px;
+}
+
+.footer-icon {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #4B7A75;
+}
+
+.footer-icon:hover {
+  text-decoration: none;
+  color: #184d47;
+}
+
+/* Media Query Breakpoints */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+.big-heading {
+  text-align: center;
+}
+
+  .img-mobile {
+    position: static;
+    width: 50%;
+    transform: rotate(0);
+    }
+}
